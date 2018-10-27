@@ -1,0 +1,23 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+
+int sum,multiply,subtract;
+float a,b,divide;
+cout<<"Enter 1st value:"<<endl;
+cin>>a;
+cout<<"Enter 2nd value:"<<endl;
+cin>>b;
+sum=a+b;
+cout<<"Sum of "<< a<<"+"<<b<<" is="<<sum<<endl;
+divide=a/b;
+cout<<a<<" divided by "<< b<<" is="<<divide<<endl;
+multiply=a*b;
+cout<<a<<" multiply by "<< b<<" is="<<multiply<<endl;
+subtract=a-b;
+cout<<a<<" subtracted by "<< b<<" is="<<subtract<<endl;
+getch();
+
+}
