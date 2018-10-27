@@ -1,0 +1,17 @@
+// ConsoleApplication2.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout << "\t \t \t \t \t \t card\n"; 
+	cout << "";
+	cout << "\"Your Problem, My Solution\"" << endl;
+	cout << "facebook.com\\Ali" << endl;
+	cout << "\n";
+	cout << "Got it\?" << endl; 
+	getchar();
+	return 0;
+}
